@@ -1,0 +1,2 @@
+# UltimateOrb.Private.IgnoresAccessChecksTo
+Provides System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute.
