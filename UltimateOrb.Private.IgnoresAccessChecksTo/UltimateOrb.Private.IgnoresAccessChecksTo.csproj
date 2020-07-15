@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>System.Runtime.CompilerServices</RootNamespace>
+    <Authors>LEI Hongfaan</Authors>
+    <Description>Provides System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>StrongNameKey.snk.pfx</AssemblyOriginatorKeyFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/LEI-Hongfaan/UltimateOrb.Private.IgnoresAccessChecksTo</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LEI-Hongfaan/UltimateOrb.Private.IgnoresAccessChecksTo</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Product>UltimateOrb Libraries</Product>
+    <Copyright>Copyright © 2020 LEI Hongfaan. Distributed under the MIT License.</Copyright>
+    <PackageTags>UltimateOrb IgnoresAccessChecksTo InternalsVisibleToAttribute</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
